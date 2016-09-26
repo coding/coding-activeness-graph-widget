@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Coding 活跃图挂件</title>
+    <script src="/static/jquery-3.1.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var code = '<iframe src="http://localhost:3000/graph/coding" frameborder="0" scrolling="no" width="1200"></iframe>';
+        code = code.replace('http://localhost:3000/', window.location);
+        $('#usage-code').text(code);
+    });
+    </script>
+</head>
+<body>
+    <h1>Coding 活跃图挂件</h1>
+    <h3>用法：</h3>
+    <pre id="usage-code">
+
+    </pre>
+</body>
+</html>

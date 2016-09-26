@@ -1,0 +1,1 @@
+web: coding-activiness-graph-widget
